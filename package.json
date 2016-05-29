@@ -2,7 +2,7 @@
   "name": "babel-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,10 +17,13 @@
   },
   "homepage": "https://github.com/thuongho/babel-skelly#readme",
   "devDependencies": {
-    "babel": "^6.5.2",
     "babelify": "^7.3.0",
     "browserify": "^13.0.1",
     "gulp": "^3.9.1",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "express": "^4.13.4"
   }
 }
