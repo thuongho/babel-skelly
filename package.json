@@ -18,13 +18,9 @@
   "homepage": "https://github.com/thuongho/babel-skelly#readme",
   "devDependencies": {
     "babel": "^6.5.2",
-    // transform that allows browserify to package all the code and convert using babel on the way in
     "babelify": "^7.3.0",
-    // write code in style of node modules, isomorphic code in browser and server
     "browserify": "^13.0.1",
-    // build tool
     "gulp": "^3.9.1",
-    // use modules such as browserify which is not strictly set up out of the box to work with gulp
     "vinyl-source-stream": "^1.1.0"
   }
 }
